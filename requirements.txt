@@ -1,0 +1,2 @@
+torch==2.14.1+cpu  # 纯 CPU 版；CUDA 版亦可运行，但本实验不需要 GPU
+matplotlib>=3.7   # 仅用于画训练曲线与消融热力图，可选

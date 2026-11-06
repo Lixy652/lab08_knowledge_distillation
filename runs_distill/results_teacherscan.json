@@ -1,0 +1,42 @@
+{
+  "scratch_val_loss": 1.2722233355045318,
+  "student_params": 147456,
+  "rows": [
+    {
+      "teacher_n_embd": 96,
+      "teacher_params": 294912,
+      "teacher_val_loss": 0.918780967593193,
+      "teacher_time_s": 14.98875117301941,
+      "kd_val_loss": 1.2411529123783112,
+      "kd_ppl": 3.459599781796432,
+      "kd_time_s": 10.005433320999146,
+      "scratch_val_loss": 1.2722233355045318,
+      "gain_pct": 2.4422145278367267,
+      "kd_agree": 0.67421875
+    },
+    {
+      "teacher_n_embd": 160,
+      "teacher_params": 737280,
+      "teacher_val_loss": 0.832203409075737,
+      "teacher_time_s": 0.0,
+      "kd_val_loss": 1.2106663107872009,
+      "kd_ppl": 3.3557198601364964,
+      "kd_time_s": 13.07678771018982,
+      "scratch_val_loss": 1.2722233355045318,
+      "gain_pct": 4.838539193507166,
+      "kd_agree": 0.6555555555555556
+    },
+    {
+      "teacher_n_embd": 256,
+      "teacher_params": 1769472,
+      "teacher_val_loss": 0.7912337064743042,
+      "teacher_time_s": 64.79691815376282,
+      "kd_val_loss": 1.2572368383407593,
+      "kd_ppl": 3.5156936238979135,
+      "kd_time_s": 19.4392147064209,
+      "scratch_val_loss": 1.2722233355045318,
+      "gain_pct": 1.1779769121928008,
+      "kd_agree": 0.6327256944444445
+    }
+  ]
+}

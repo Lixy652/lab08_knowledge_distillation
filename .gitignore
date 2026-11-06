@@ -1,0 +1,20 @@
+# 报告封面含姓名/学号，连同代码一起上传会把个人信息公开；报告单独提交，
+# 若要连报告一起入库（例如私有仓库），删掉下面这行即可。
+*.docx
+
+# 训练产物：权重文件体积较大，不入库（跑一次 distill_lm.py 即可现场生成）
+runs_distill/*.pt
+runs_distill/quick/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
